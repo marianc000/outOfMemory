@@ -1,0 +1,15 @@
+{
+  "name": "TomcatVsNode",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "chart.js": "^3.5.1",
+    "express": "^4.17.1" 
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

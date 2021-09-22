@@ -1,0 +1,38 @@
+#output {
+    width: fit-content;
+    display: inline-block;
+}
+
+#runBtn {
+    vertical-align: bottom;
+    font-size: 1.2em;
+    margin-left: 0.5em;
+}
+
+#output>div {
+    /* margin: 0 auto; */
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin: 0.1em;
+    font-size: 1.5em;
+}
+
+body {
+    font-family: arial;
+}
+
+#table {
+    display: inline-block;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+  padding: 0.2em 0.5em;
+}

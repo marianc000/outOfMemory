@@ -9,7 +9,7 @@ function tableRow(count, len, mbs) {
 }
 
 const strs = [];
-let i = 0;
+
 runBtn.onclick = async function addString() {
   strs.push('X'.repeat(100 * MB));
   strs.at(-1)[0];
@@ -18,9 +18,8 @@ runBtn.onclick = async function addString() {
   const chars = strs.reduce((t, s) => t + s.length, 0);
 
   table.insertAdjacentHTML('beforeend', tableRow(strs.length, chars, memory.bytes));;
-  i++;
-  if (i < 11)
-    setTimeout(addString, 1000);
+
+  setTimeout(addString, 1000);
 }
 
 
